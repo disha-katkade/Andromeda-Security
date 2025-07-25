@@ -1,44 +1,44 @@
-# 🔐 Andromeda-Security
+# Andromeda Security
+Andromeda Security is a multilingual blockchain security platform designed to help users detect, understand, and prevent risks in Web3 transactions. It combines real-time ML-powered risk analysis, a wallet reputation system, and an AI chatbot assistant to make blockchain safety accessible for all.
 
-**A Multilingual AI Chatbot for Blockchain Security Awareness**
+## 🚀 Key Features
 
-Andromeda Security is a web-based chatbot platform that educates users about DeFi threats, wallet flags, and risky blockchain transactions. Built with a modern tech stack and multilingual support, it ensures accessible and intuitive security guidance for global users.
+- 🛡 Real-Time Wallet & Transaction Risk Analysis
+- 🌐 Multilingual AI Assistant (Hindi, Spanish, French, German, English)
+- 🤖 ML Model Integration (Anomaly & Supervised Learning)
+- 📊 Interactive Web Dashboard (React + Tailwind + Lucide)
+- 🧠 DeFi Education & Scam Awareness Modules
+- 🔍 Autonomous Pattern Detection & Alerts (Planned)
 
----
+## ⚙ Tech Stack
 
-## 🚀 Features
+| *Frontend*    | *Backend*      | *ML Model*          |
+| --------------- | ---------------- | --------------------- |
+| React.js (Vite) | FastAPI          | scikit-learn          |
+| Tailwind CSS    | Python 3.10+     | joblib (model loader) |
+| Lucide Icons    | CORS-enabled API | Custom classifier     |
 
-- 🤖 AI-Powered Responses for blockchain threat education
-- 🌍 Multilingual support (English, Hindi, Tamil, Gujarati, Spanish, French)
-- 🧩 Modular UI components with Tailwind CSS
-- 🧠 Fallback menu logic for uncertain queries
-- 🔒 Highlights suspicious wallets, transaction patterns, and common DeFi scams
+## ⚡ Quick Start
 
----
-
-## 🛠 Tech Stack
-
-- **Frontend**: HTML, Tailwind CSS, TypeScript
-- **Language Engine**: NLP (planned/integrated)
-- **Icons**: Lucide-react (if React support exists)
-- **Package Manager**: npm
-
----
-
-## 📦 Installation
+### 1️⃣ Clone Repository
 
 ```bash
-# Clone the repository
-git clone https://github.com/jayesh3103/Andromeda-Security.git
+git clone https://github.com/yourusername/Andromeda-Security.git
 cd Andromeda-Security
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
 ```
 
----
+### 2️⃣ Run Frontend
 
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
+### 3️⃣ Run ML Backend
+
+```bash
+cd ml-model-api
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
